@@ -27,6 +27,17 @@ int main(void){
 	
 	cout << endl;
 	cout << "A tua média final é: " << media << "." << endl; 
+	cout << endl;
+	
+	//média ponderda
+	float peso1 = 0.5; //50%
+	float peso2 = 0.1; //10%
+	float peso3 = 0.1; //10%
+	float peso4 = 0.3; //30%
+	cout << "Média ponderada: 50% da primeira nota; 10% da segunda nota; 10% da terceira nota; 30% da quarta nota" << endl;
+	float mediapond = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3 + nota4 * peso4) / (peso1 + peso2 + peso3 + peso4);
+	cout << endl;
+	cout << "A tua média final ponderada é: " << mediapond << "." << endl;
 	
 	system("Pause");
 }
