@@ -1,1 +1,1 @@
-Este é um ficheiro criado no GitHub.
+Este é o ficheiro "04.txt" criado no PC, na ramificação "ramo1" e "empurrado" para o GitHub.
